@@ -19,7 +19,7 @@
         state: directory
 
 - name: RETRIEVE ROUTER CONFIGURATIONS
-  hosts: all
+  hosts: cisco
   gather_facts: no
 
   tasks:
